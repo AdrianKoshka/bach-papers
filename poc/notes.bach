@@ -41,10 +41,14 @@ document
 (title "Software:")
   (li "OS Support:")
   (ul
+    (li "Android 4.4 KitKat")
+    (li "Ångström")
+    (li "Arch")
+    (li "Buildroot")
     (li (a "Debian 8" href="http://elinux.org/CI20_Distros#Debian"))
     (li "Gentoo")
+    (li "OpenWRT")
     (li "Yocto Linux")
-    (li "Android 4.4 KitKat")
   )
   (li "SDK:")
   (ul
