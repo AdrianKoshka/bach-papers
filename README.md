@@ -7,11 +7,18 @@ various papers and documents written in [bach](https://github.com/tawesoft/bach)
 .
 ├── LICENSE
 ├── poc
+│   ├── libvirt-domain
+│   │   ├── centos7.bach
+│   │   └── cetos7.xml
+│   └── notes.bach
 └── README.md
 ```
 
 - `LICENSE` is a plaintext copy of the CC-BY-SA 4.0 international license.
 - `poc` Proof of Concept, probably where most of the `.bach` files will end up.
+- `proc/libvirt-domain` a proof of concept for defining a KVM/QEMU VM with bach
+  - `centos7.bach` an approximation of a libvirt domanin defined in bach
+  - `centos7.xml` the original XML libvirt domain definition
 - `README.md` the markdown document you're reading right now.
 
 
