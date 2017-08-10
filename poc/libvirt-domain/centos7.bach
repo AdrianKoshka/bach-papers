@@ -11,10 +11,14 @@ document
   (currentMemory '4' unit='GiB')
   (vcpu '4' placement='static')
   (os
-    (features
-      (acpi)
-      (apic)
-    )
+    (type 'hvm' arch='x86_64' machine='pc-q35-2.5')
+    (loader '/usr/share/OVMF/OVMF_CODE.fd' readonly='yes' type='pflash')
+    (nvram '/var/lib/libvirt/qemu/nvram/centos7.0_VARS.fd')
+  )
+  (features
+    (acpi)
+    (apic)
+  )
     (cpu mode='host-passthrough')
     (clock offset='utc'
       (timer name='rtc' tickpolicy='catchup')
@@ -126,5 +130,4 @@ document
         (address type='isa' iobase='0x505')
       )
     )
-  )
 )
