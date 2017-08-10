@@ -1,0 +1,45 @@
+# meant as a proof of concept for bach as a note taking system
+document
+
+(section
+(title "Creator Ci20 specs:")
+  (li "CPU:")
+  (ul
+    (li "1.2 GHz dual-core, MIPS32-based Ingenic JZ4780 SoC")
+    (li "32kB L1 I- and D-cache, 512kB L2 cache")
+  )
+  (li "FPU/SIMD:")
+  (ul
+    (li "IEEE754 Floating Point Unit, XBurst MXU")
+  )
+  (li "GPU:")
+  (ul
+    (li "PowerVR SGX540 GPU")
+    (ul
+      (li "hardware-accelerated video playback up to 1080p at 60 fps")
+    )
+  )
+  (li "Memory:")
+  (ul
+    (li "1 GB DDR3 SDRAM")
+    (li "8GB flash memory")
+    (li "1x SD card slot")
+    (li "More specs available" (a "here" href="http://blog.imgtec.com/powervr/updated-creator-ci20-improved-board-layout-flowcloud-support"))
+  )
+)
+
+
+(section
+(title "Software:")
+  (li "OS Support:")
+  (ul
+    (li (a "Debian 8" href="http://elinux.org/CI20_Distros#Debian"))
+    (li "Gentoo")
+    (li "Yocto Linux")
+    (li "Android 4.4 KitKat")
+  )
+  (li "SDK")
+  (ul
+    (li (a "FlowCloud" href="http://www.imgtec.com/flowcloud/"))
+  )
+)
