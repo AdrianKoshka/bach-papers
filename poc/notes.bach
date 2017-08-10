@@ -46,7 +46,7 @@ document
     (li "Yocto Linux")
     (li "Android 4.4 KitKat")
   )
-  (li "SDK")
+  (li "SDK:")
   (ul
     (li (a "FlowCloud" href="http://www.imgtec.com/flowcloud/"))
   )
