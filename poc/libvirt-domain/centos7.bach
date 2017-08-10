@@ -29,7 +29,7 @@ document
       (suspend-to-disk enabled='no')
     )
     (devices
-      (emulator ''/usr/bin/kvm-spice')
+      (emulator '/usr/bin/kvm-spice')
       (disk type='file' devices='disk'
         (driver name='qemu' type='qcow2')
         (source file='/mnt/storage/virt/root-doot.qcow2')
