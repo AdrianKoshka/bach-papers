@@ -9,7 +9,7 @@ various papers and documents written in [bach](https://github.com/tawesoft/bach)
 ├── poc
 │   ├── libvirt-domain
 │   │   ├── centos7.bach
-│   │   └── cetos7.xml
+│   │   └── centos7.xml
 │   └── notes.bach
 └── README.md
 ```
