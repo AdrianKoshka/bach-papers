@@ -1,6 +1,7 @@
 # Proof of concept for writing libvirt KVM/QEMU definitions with bach
 # I honestly don't see the point of this, it's mostly for fun
 # obviously I don't think it'd be classified as "document"
+# to be fair, in my opinion, this is way more legible then it's XML counterpart
 document
 
 (domain type='kvm'
