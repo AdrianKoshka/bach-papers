@@ -1,6 +1,14 @@
 # meant as a proof of concept for bach as a note taking system
 document
 
+(metadata
+  (copyright
+    author="Adrian Lucrèce Céleste"
+    source="https://github.com/AdrianKoshka/bach-papers"
+    license="https://creativecommons.org/licenses/by-sa/4.0/"
+  )
+)
+
 (section
 (title "Creator Ci20 specs:")
   (li "CPU:")
