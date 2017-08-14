@@ -7,16 +7,10 @@ various papers and documents written in [bach](https://github.com/tawesoft/bach)
 .
 `-- poc
     `-- libvirt
-        |-- domain
-        |-- network
-        `-- storage
 ```
 
 - `poc` Proof of Concept, probably where most of the `.bach` files will end up.
 - `proc/libvirt/` A PoC for defining various libvirt schemas in bach.
- - `proc/libvirt/domain/` Defining libvirt domains
- - `proc/libvirt/network/` Defining libvirt networks
- - `proc/libvirt/storage` Defining storage pools and volumes
 
 
 ## Authors
