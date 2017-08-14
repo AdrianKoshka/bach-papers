@@ -1,0 +1,9 @@
+# The site names this a "file" based pool, when "directory" based pool would be
+# a better name, nothing code-wise has been changed though.
+
+pool type="dir"
+
+(name "virtimages")
+(target
+  (path "/var/libvirt/images")
+)
