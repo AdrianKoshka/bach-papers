@@ -1,0 +1,13 @@
+network
+
+(name "net7")
+(bridge name="virbr7")
+(forward mode="route")
+(ip family="ipv6" address="2001:db8:ca2:7::1" prefix="64"
+  (dhcp
+    (range start="2001:db8:ca2:7::100" end="2001:db8:ca2::1ff")
+    (host id="0:4:7e:7d:f0:7d:a8:bc:c5:d2:13:32:11:ed:16:ea:84:63"
+      name="lucas" ip="2001:db8:ca2:2:3::4")
+  )
+(route family="ipv6" address="2001:db8:ca2:8::" prefix="64" gateway="2001:db8:ca2:7::4")
+)

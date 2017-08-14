@@ -1,0 +1,10 @@
+network
+
+(name "direct-macvtap")
+(forward mode="bridge"
+  (interface dev="eth20")
+  (interface dev="eth21")
+  (interface dev="eth22")
+  (interface dev="eth23")
+  (interface dev="eth24")
+)

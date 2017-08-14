@@ -1,0 +1,13 @@
+network
+
+(name "sixnet")
+(bridge name="virbr6")
+(ip family="ipv6" address="2001:db8:ca2:6::1" prefix="64"
+  (dhcp
+    (host name="peter" ip="2001:db8:ca2:6:6::1")
+    (host id="0:1:0:1:18:aa:62:fe:0:16:3e:44:55:66" ip="2001:db8:ca2:6:6::2")
+    (host id="0:3:0:1:0:16:3e:11:22:33" name="dariusz" ip="2001:db8:ca2:6:6::3")
+    (host id="0:4:7e:7d:f0:7d:a8:bc:c5:d2:13:32:11:ed:16:ea:84:63"
+      name="anita" ip="2001:db8:ca2:6:6::4")
+  )
+)

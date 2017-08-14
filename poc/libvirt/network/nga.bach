@@ -1,0 +1,6 @@
+network ipv6='yes'
+
+(name "nogw")
+(uuid "7a3b7497-1ec7-8aef-6d5c-38dff9109e93")
+(bridge name="virbr2" stp="on" delay="0")
+(mac address='00:16:3E:5D:C7:9E')

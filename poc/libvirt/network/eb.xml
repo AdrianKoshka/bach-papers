@@ -1,0 +1,11 @@
+<!--
+This example code was snatched from:
+https://libvirt.org/formatnetwork.html#examplesBridge
+This file is under the license of it's respective project.
+-->
+
+<network>
+  <name>host-bridge</name>
+  <forward mode="bridge"/>
+  <bridge name="br0"/>
+</network>
