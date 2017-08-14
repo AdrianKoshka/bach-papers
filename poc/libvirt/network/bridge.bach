@@ -1,0 +1,16 @@
+# This is a very, very simple example of a NAT ipv4 setup.
+# The original XML file this is based off of was taken from:
+# /usr/share/libvirt/networks/default.xml on CentOS7
+# I'll try to replace this with a better example later
+
+network
+
+(name "default")
+(bridge name="virbr0")
+(forward
+  (ip address="192.168.122.1" netmask="255.255.255.0"
+    (dhcp
+      (range start="192.168.122.2" end="192.168.122.254")
+    )
+  )
+)
