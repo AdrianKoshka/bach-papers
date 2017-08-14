@@ -1,0 +1,13 @@
+pool type="iscsi"
+
+(name "virtimages")
+(source
+  (host name="iscsi.example.com")
+  (device path="iqn.2013-06.com.example:iscsi-pool")
+  (auth type='chap' username='myuser'
+    (secret usage='libvirtiscsi')
+  )
+(target
+  (path "/dev/disk/by-path/")
+)
+)
