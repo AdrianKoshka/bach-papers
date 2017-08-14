@@ -1,0 +1,12 @@
+<!--
+This example code was snatched from:
+https://libvirt.org/formatstorage.html#examples
+This file is under the license of it's respective project.
+-->
+
+<pool type="dir">
+  <name>virtimages</name>
+  <target>
+    <path>/var/lib/virt/images</path>
+  </target>
+</pool>
