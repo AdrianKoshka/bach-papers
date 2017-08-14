@@ -1,0 +1,23 @@
+# Examples of a paravirtualized guest bootloader VM in xen.
+
+domain type='xen'
+
+(name 'fc8')
+(bootloader '/usr/bin/pygrub')
+(os
+  (type 'linux')
+)
+(memory '131072')
+(vcpu '1')
+(devices
+  (disk type='file'
+    (source file='/var/lib/xen/images/fc4.img')
+    (target dev='sda1')
+  )
+  (interface type='bridge'
+  	(source bridge='xenbr0')
+    (mac address='aa:00:00:00:00:11')
+    (script path='/etc/xen/scripts/vif-bridge')
+  )
+  (console tty='/dev/pts/5')
+)

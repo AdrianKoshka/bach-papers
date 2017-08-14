@@ -1,0 +1,26 @@
+# Example of a paravirtualized guest with direct kernel boot
+
+domain type='xen'
+
+(name 'fc8')
+(os
+  (type 'linux')
+  (kernel '/var/lib/xen/install/vmlinuz-fedora8-x86_64')
+  (initrd '/var/lib/xen/install/initrd-vmlinuz-fedora8-x86_64')
+  (cmdline 'kickstart=http://example.com/myguest.ks')
+)
+(memory '131072')
+(vcpu '1')
+(devices
+  (disk type='file'
+    (source file='/var/lib/xen/images/fc4.img')
+    (target dev='sda1')
+  )
+  (interface type='bridge'
+    (source bridge='xenbr0')
+    (mac address='aa:00:00:00:00:11')
+    (script path='/etc/xen/scripts/vif-bridge')
+  )
+  (graphics type='vnc' port='-1')
+  (console tty='/dev/pts/5')
+)
