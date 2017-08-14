@@ -1,0 +1,19 @@
+<!--
+This example code was snatched from:
+https://libvirt.org/formatstorage.html#examples
+This file is under the license of it's respective project.
+-->
+
+<pool type="iscsi">
+  <name>virtimages</name>
+  <source>
+    <host name="iscsi.example.com"/>
+    <device path="iqn.2013-06.com.example:iscsi-pool"/>
+    <auth type='chap' username='myuser'>
+      <secret usage='libvirtiscsi'/>
+    </auth>
+  </source>
+  <target>
+    <path>/dev/disk/by-path</path>
+  </target>
+</pool>
