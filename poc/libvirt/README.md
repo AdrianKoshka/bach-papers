@@ -34,3 +34,12 @@ will list the ones I haven't covered.
 - [Node devices](https://libvirt.org/formatnode.html)
 - [Secrets](https://libvirt.org/formatsecret.html)
 - [Snapshots](https://libvirt.org/formatsnapshot.html)
+
+## Validator / Parser
+
+> libvirt provides a tool called `virt-xml-validate`, which uses the locally installed RNG (Relax-NG) schema documents, and also auto-detects which schema to validate based on the top level element. (Roughly paraphrased from libvirt.org/format.hmtl)
+
+Something like this but for libvirt documents written in bach would be
+execellent, though not really my thing. I suppose another thing that would be
+needed would be something to convert libvirt documents written in bach to
+their original XML counterparts.
