@@ -10,7 +10,7 @@ For examples sake, we'll use a list of quotes, with an author, and date. You
 want the contents of this document to both show up as an `MOTD` (Message of the
 day), but also generate a nice HTML page for the corporate intranet, let's say
 you've already written said parser in `python`, but need to show a co-worker
-how to parse the document.
+how to parse and write additions to the document.
 
 ## Creating the document
 
