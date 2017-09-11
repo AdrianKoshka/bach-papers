@@ -5,12 +5,14 @@ various papers and documents written in [bach](https://github.com/tawesoft/bach)
 
 ```
 .
-`-- poc
-    `-- libvirt
+└── poc
+    ├── libvirt
+    └── user-docs
 ```
 
 - `poc` Proof of Concept, probably where most of the `.bach` files will end up.
-- `proc/libvirt/` A PoC for defining various libvirt schemas in bach.
+- `poc/libvirt/` A PoC for defining various libvirt schemas in bach.
+- `poc/user-docs` Ideas for end-user documentation for `bach`.
 
 
 ## Authors
