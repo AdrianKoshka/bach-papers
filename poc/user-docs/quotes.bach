@@ -1,0 +1,16 @@
+list
+
+(quote "Only Thing We Have to Fear Is Fear Itself."
+  (author "Franklin Delano Roosevelt")
+  (date "1933-03-04")
+)
+
+(quote "I believe that freedom is the deepest need of every human soul."
+  (author "George W. Bush")
+  (date "2004-04-13")
+)
+
+(quote "We don't wage war, but we are called upon to impose a peaceful solution."
+  (author "Gerhard Schröder")
+  (date "1999-03-24")
+)
