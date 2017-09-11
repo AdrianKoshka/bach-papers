@@ -16,6 +16,7 @@ various papers and documents written in [bach](https://github.com/tawesoft/bach)
 ## Authors
 
  - [Adrian Lucrèce Céleste](https://github.com/AdrianKoshka)
+ - [Richard Kutina](https://github.com/kutis96)
 
 ## [License](LICENSE) <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
