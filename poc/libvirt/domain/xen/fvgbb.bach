@@ -4,7 +4,7 @@ domain type='xen' id='3'
 
 (name 'fv0')
 (uuid '4dea22b31d52d8f32516782e98ab3fa0')
-(os 
+(os
   (type 'hvm')
   (loader '/usr/lib/xen/boot/hvmloader')
   (boot dev='hd')
@@ -18,11 +18,11 @@ domain type='xen' id='3'
   (acpi)
   (apic)
 )
-(clock sync="localtime")
+(clock sync='localtime')
 (devices
   (emulator '/usr/lib/xen/bin/qemu-dm')
   (interface type='bridge'
-    (source bridge='xenbr0)
+    (source bridge='xenbr0')
     (mac address='00:16:3e:5d:c7:9e')
     (script path='vif-bridge')
   )
