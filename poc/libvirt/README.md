@@ -7,11 +7,11 @@ So while I suppose these are "Proof of Concepts", don't expect anything amazing.
 
 ```
 .
-|-- domain
-|   |-- kvm
-|   `-- xen
-|-- network
-`-- storage
+├── domain
+│   ├── kvm
+│   └── xen
+├── network
+└── storage
 ```
 
 - `domain` defining libvirt [domains](https://libvirt.org/formatdomain.html)
