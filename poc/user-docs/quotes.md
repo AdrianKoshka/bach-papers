@@ -31,7 +31,7 @@ list
 
 (quote "We don't wage war, but we are called upon to impose a peaceful solution."
   (author "Gerhard Schröder")
-  (date 1999-03-24"")
+  (date "1999-03-24")
 )
 ```
 
