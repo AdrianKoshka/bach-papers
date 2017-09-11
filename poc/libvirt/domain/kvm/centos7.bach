@@ -90,7 +90,7 @@ domain type='kvm'
     (target type='serial' port='0')
   )
   (channel type='unix'
-    (target type='virtio' name='org.qemu.guest_agent.0)
+    (target type='virtio' name='org.qemu.guest_agent.0')
     (address type='virtio-serial' controller='0' bus='0' port='1')
   )
   (channel type='spicevmc'
