@@ -6,7 +6,7 @@ A decent bare-bones crash course to `bach` syntax can be found
 ## Context
 
 Perhaps you had something that you wanted organized into a structured document.
-For examples sake, we'll use a list of quotes, with an author, and date. You
+For example's sake, we'll use a list of quotes, with an author, and date. You
 want the contents of this document to both show up as an `MOTD` (Message of the
 day), but also generate a nice HTML page for the corporate intranet, let's say
 you've already written said parser in `python`, but need to show a co-worker
@@ -14,7 +14,7 @@ how to parse and write additions to the document.
 
 ## Creating the document
 
-Your document could end up looking something like this.
+Your document could end up looking something like this:
 
 ```
 list
@@ -35,8 +35,8 @@ list
 )
 ```
 
-Let's break this document down, the first line contains the word `list`, this is
-simply to signal to the parser, what type of document/SCHEMA you're using. Then
+Let's break this document down: The first line contains the word `list`, this is
+simply to signal to the parser, what type of document/schema you're using. Then
 comes:
 
 ```
@@ -46,11 +46,10 @@ comes:
 )
 ```
 
-the first tag `(quote)` tells the parser that you're going to start a quote,
+The first tag `(quote)` tells the parser that you're going to start a quote,
 then in quotation marks, the quote itself is entered, which is an `attribute`.
 Nested within `(quote)` are `children` like `(author)`, and `(date)`, which
-contain their own `attributes`. The tag `(author)` contains the string-literal `"Franklin Delano Roosevelt"`, and the `(date)` tag contains an ISO 8601
-formatted date. After the `(date)` tag, the `(quote)` tag is closed.
+contain their own `attributes`. The tag `(author)` contains the string-literal `"Franklin Delano Roosevelt"`, and the `(date)` tag contains an ISO 8601 formatted date. After the `(date)` tag, the `(quote)` tag is closed.
 
 ## Usage
 
@@ -68,5 +67,5 @@ might not pipe together so cleanly.
 ## Why did we write the document in bach then!?
 
 So, why did we write the document in `bach`, something you probably had to write
-your own parser for your schema for? Simply put, it's quite a bit nicer and
-easier to read and write then XML is.
+your own parser for your schema for? Simply put, `bach` is quite a bit nicer and
+easier to read and write than XML is.
