@@ -1,4 +1,4 @@
-# Quotes
+# Intro
 
 A decent bare-bones crash course to `bach` syntax can be found
 [here](https://github.com/tawesoft/bach).
@@ -69,3 +69,7 @@ might not pipe together so cleanly.
 So, why did we write the document in `bach`, something you probably had to write
 your own parser for your schema for? Simply put, `bach` is quite a bit nicer and
 easier to read and write than XML is.
+
+### More in Depth usage
+
+More in depth instructions about how to manipulate bach files can be found [in the next section](processing.md).
