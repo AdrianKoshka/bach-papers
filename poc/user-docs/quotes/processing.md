@@ -33,9 +33,9 @@ doing this will print the XML to `stdout`, you can save the document by altering
 the command slightly.
 
 ```shell
-python3 ~/bach/python/bach2xml.py < quotes.bach > quotes.xml
+$ python3 ~/bach/python/bach2xml.py < quotes.bach > quotes.xml
 # alternatively
-cat quotes.bach | python3 ~/bach/python/bach2xml.py > quotes.xml
+$ cat quotes.bach | python3 ~/bach/python/bach2xml.py > quotes.xml
 ```
 
 
