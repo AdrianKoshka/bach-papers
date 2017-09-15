@@ -101,8 +101,8 @@ Each `%s` corresponds to a variable in the next part of the print function, with
 newlines (`\n`) separating each variable to be printed. In parenthesis are the
 variables `text`, `author`, and `date`, though they have `[ranquote].text`
 appended to them. This is because each variable is really an array, and we use
-`ranquote` to randomly pick something out of that array, the `.text` portion
-meaning the text contained within the element, and not the element tag itself.
+`ranquote` to randomly pick something out of that array, `.text` specifying
+the text contained within the element, and not the element tag itself.
 
 ## Using the "shim" program
 
