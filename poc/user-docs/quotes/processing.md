@@ -24,9 +24,9 @@ $ git clone https://github.com/tawesoft/bach.git
 in `bach/python/` there's `bach2xml.py`, which can be used as follows:
 
 ```shell
-python3 ~/bach/python/bach2xml.py < quotes.bach
+$ python3 ~/bach/python/bach2xml.py < quotes.bach
 # alternatively
-cat quotes.bach | python3 ~/bach/python/bach2xml.py
+$ cat quotes.bach | python3 ~/bach/python/bach2xml.py
 ```
 
 doing this will print the XML to `stdout`, you can save the document by altering
