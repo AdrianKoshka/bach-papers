@@ -56,7 +56,7 @@ doc = etree.parse(fp)
 author = doc.xpath('/list/quote/author')
 date = doc.xpath('/list/quote/date')
 text = doc.xpath('/list/quote/text')
-ranquote = random.randrange(0,3)
+ranquote = random.randrange(0,len(text))
 print("%s\n%s,\n%s" % (text[ranquote].text, author[ranquote].text, date[ranquote].text))
 ```
 
@@ -82,14 +82,14 @@ doc = etree.parse(fp)
 author = doc.xpath('/list/quote/author')
 date = doc.xpath('/list/quote/date')
 text = doc.xpath('/list/quote/text')
-ranquote = random.randrange(0,3)
+ranquote = random.randrange(0,len(text))
 ```
 
 - `fp`  is what handles the input, allowing the xml document to be fed into the
 program.
 - `doc` takes the input from `fp` and using `etree` parses the XML.
 - `author`, `date`, and `text` use `xpath` from etree to find the tags within the XML
-- `ranquote` uses `random` to generate a random number between 0 and 3.
+- `ranquote` uses `random` to generate a random number between 0 and the size of the array.
 
 Now all of this code comes together into the final line, the `print()` function.
 
